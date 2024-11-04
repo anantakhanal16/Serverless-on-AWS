@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "ServerlessMoneyTransfer": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "http://localhost:54713;http://localhost:54714"
+    }
+  }
+}
