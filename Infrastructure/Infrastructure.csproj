@@ -11,6 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Amazon.CDK" Version="1.204.0" />
     <PackageReference Include="Amazon.CDK.AWS.Cognito" Version="1.204.0" />
   </ItemGroup>
 
