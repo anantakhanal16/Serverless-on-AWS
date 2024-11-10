@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Stacks\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Amazon.CDK.AWS.Cognito" Version="1.204.0" />
+  </ItemGroup>
+
+</Project>
