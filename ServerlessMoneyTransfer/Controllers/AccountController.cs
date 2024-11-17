@@ -10,6 +10,7 @@ namespace ServerlessMoneyTransfer.Controllers
         [Route("Register")]
         public IEnumerable<string> Register()
         {
+
             return new string[] { "value1", "value2" };
         }
 

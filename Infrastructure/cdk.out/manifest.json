@@ -1,0 +1,158 @@
+{
+  "version": "21.0.0",
+  "artifacts": {
+    "Tree": {
+      "type": "cdk:tree",
+      "properties": {
+        "file": "tree.json"
+      }
+    },
+    "CognitoStack": {
+      "type": "aws:cloudformation:stack",
+      "environment": "aws://unknown-account/unknown-region",
+      "properties": {
+        "templateFile": "CognitoStack.template.json",
+        "validateOnSynth": false
+      },
+      "metadata": {
+        "/CognitoStack/MyUserPool/smsRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MyUserPoolsmsRoleBD56C4CC",
+            "trace": [
+              "new Role (C:\\Users\\ananta\\AppData\\Local\\Temp\\jsii-kernel-FxNjG2\\node_modules\\@aws-cdk\\aws-iam\\lib\\role.js:63:22)",
+              "UserPool.smsConfiguration (C:\\Users\\ananta\\AppData\\Local\\Temp\\jsii-kernel-FxNjG2\\node_modules\\@aws-cdk\\aws-cognito\\lib\\user-pool.js:489:42)",
+              "new UserPool (C:\\Users\\ananta\\AppData\\Local\\Temp\\jsii-kernel-FxNjG2\\node_modules\\@aws-cdk\\aws-cognito\\lib\\user-pool.js:272:36)",
+              "Kernel._create (C:\\Users\\ananta\\AppData\\Local\\Temp\\5atzbmgq.ctr\\lib\\program.js:9964:29)",
+              "Kernel.create (C:\\Users\\ananta\\AppData\\Local\\Temp\\5atzbmgq.ctr\\lib\\program.js:9693:29)",
+              "KernelHost.processRequest (C:\\Users\\ananta\\AppData\\Local\\Temp\\5atzbmgq.ctr\\lib\\program.js:11544:36)",
+              "KernelHost.run (C:\\Users\\ananta\\AppData\\Local\\Temp\\5atzbmgq.ctr\\lib\\program.js:11504:22)",
+              "Immediate._onImmediate (C:\\Users\\ananta\\AppData\\Local\\Temp\\5atzbmgq.ctr\\lib\\program.js:11505:46)",
+              "process.processImmediate (node:internal/timers:491:21)"
+            ]
+          }
+        ],
+        "/CognitoStack/MyUserPool/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MyUserPoolD09D1D74",
+            "trace": [
+              "new UserPool (C:\\Users\\ananta\\AppData\\Local\\Temp\\jsii-kernel-FxNjG2\\node_modules\\@aws-cdk\\aws-cognito\\lib\\user-pool.js:265:26)",
+              "Kernel._create (C:\\Users\\ananta\\AppData\\Local\\Temp\\5atzbmgq.ctr\\lib\\program.js:9964:29)",
+              "Kernel.create (C:\\Users\\ananta\\AppData\\Local\\Temp\\5atzbmgq.ctr\\lib\\program.js:9693:29)",
+              "KernelHost.processRequest (C:\\Users\\ananta\\AppData\\Local\\Temp\\5atzbmgq.ctr\\lib\\program.js:11544:36)",
+              "KernelHost.run (C:\\Users\\ananta\\AppData\\Local\\Temp\\5atzbmgq.ctr\\lib\\program.js:11504:22)",
+              "Immediate._onImmediate (C:\\Users\\ananta\\AppData\\Local\\Temp\\5atzbmgq.ctr\\lib\\program.js:11505:46)",
+              "process.processImmediate (node:internal/timers:491:21)"
+            ]
+          }
+        ],
+        "/CognitoStack/MyUserPool/AppClient/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MyUserPoolAppClientCE7131C4",
+            "trace": [
+              "new UserPoolClient (C:\\Users\\ananta\\AppData\\Local\\Temp\\jsii-kernel-FxNjG2\\node_modules\\@aws-cdk\\aws-cognito\\lib\\user-pool-client.js:149:26)",
+              "UserPool.addClient (C:\\Users\\ananta\\AppData\\Local\\Temp\\jsii-kernel-FxNjG2\\node_modules\\@aws-cdk\\aws-cognito\\lib\\user-pool.js:156:16)",
+              "C:\\Users\\ananta\\AppData\\Local\\Temp\\5atzbmgq.ctr\\lib\\program.js:9769:105",
+              "Kernel._ensureSync (C:\\Users\\ananta\\AppData\\Local\\Temp\\5atzbmgq.ctr\\lib\\program.js:10358:28)",
+              "Kernel.invoke (C:\\Users\\ananta\\AppData\\Local\\Temp\\5atzbmgq.ctr\\lib\\program.js:9769:34)",
+              "KernelHost.processRequest (C:\\Users\\ananta\\AppData\\Local\\Temp\\5atzbmgq.ctr\\lib\\program.js:11544:36)",
+              "KernelHost.run (C:\\Users\\ananta\\AppData\\Local\\Temp\\5atzbmgq.ctr\\lib\\program.js:11504:22)",
+              "Immediate._onImmediate (C:\\Users\\ananta\\AppData\\Local\\Temp\\5atzbmgq.ctr\\lib\\program.js:11505:46)",
+              "process.processImmediate (node:internal/timers:491:21)"
+            ]
+          }
+        ],
+        "/CognitoStack/AuthenticatedRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AuthenticatedRole86104F1A",
+            "trace": [
+              "new Role (C:\\Users\\ananta\\AppData\\Local\\Temp\\jsii-kernel-FxNjG2\\node_modules\\@aws-cdk\\aws-iam\\lib\\role.js:63:22)",
+              "Kernel._create (C:\\Users\\ananta\\AppData\\Local\\Temp\\5atzbmgq.ctr\\lib\\program.js:9964:29)",
+              "Kernel.create (C:\\Users\\ananta\\AppData\\Local\\Temp\\5atzbmgq.ctr\\lib\\program.js:9693:29)",
+              "KernelHost.processRequest (C:\\Users\\ananta\\AppData\\Local\\Temp\\5atzbmgq.ctr\\lib\\program.js:11544:36)",
+              "KernelHost.run (C:\\Users\\ananta\\AppData\\Local\\Temp\\5atzbmgq.ctr\\lib\\program.js:11504:22)",
+              "Immediate._onImmediate (C:\\Users\\ananta\\AppData\\Local\\Temp\\5atzbmgq.ctr\\lib\\program.js:11505:46)",
+              "process.processImmediate (node:internal/timers:491:21)"
+            ]
+          }
+        ],
+        "/CognitoStack/IdentityPool": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "IdentityPool",
+            "trace": [
+              "Kernel._create (C:\\Users\\ananta\\AppData\\Local\\Temp\\5atzbmgq.ctr\\lib\\program.js:9964:29)",
+              "Kernel.create (C:\\Users\\ananta\\AppData\\Local\\Temp\\5atzbmgq.ctr\\lib\\program.js:9693:29)",
+              "KernelHost.processRequest (C:\\Users\\ananta\\AppData\\Local\\Temp\\5atzbmgq.ctr\\lib\\program.js:11544:36)",
+              "KernelHost.run (C:\\Users\\ananta\\AppData\\Local\\Temp\\5atzbmgq.ctr\\lib\\program.js:11504:22)",
+              "Immediate._onImmediate (C:\\Users\\ananta\\AppData\\Local\\Temp\\5atzbmgq.ctr\\lib\\program.js:11505:46)",
+              "process.processImmediate (node:internal/timers:491:21)"
+            ]
+          }
+        ],
+        "/CognitoStack/IdentityPoolRoleAttachment": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "IdentityPoolRoleAttachment",
+            "trace": [
+              "Kernel._create (C:\\Users\\ananta\\AppData\\Local\\Temp\\5atzbmgq.ctr\\lib\\program.js:9964:29)",
+              "Kernel.create (C:\\Users\\ananta\\AppData\\Local\\Temp\\5atzbmgq.ctr\\lib\\program.js:9693:29)",
+              "KernelHost.processRequest (C:\\Users\\ananta\\AppData\\Local\\Temp\\5atzbmgq.ctr\\lib\\program.js:11544:36)",
+              "KernelHost.run (C:\\Users\\ananta\\AppData\\Local\\Temp\\5atzbmgq.ctr\\lib\\program.js:11504:22)",
+              "Immediate._onImmediate (C:\\Users\\ananta\\AppData\\Local\\Temp\\5atzbmgq.ctr\\lib\\program.js:11505:46)",
+              "process.processImmediate (node:internal/timers:491:21)"
+            ]
+          }
+        ],
+        "/CognitoStack/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata",
+            "trace": [
+              "new MetadataResource (C:\\Users\\ananta\\AppData\\Local\\Temp\\jsii-kernel-FxNjG2\\node_modules\\@aws-cdk\\core\\lib\\private\\metadata-resource.js:22:30)",
+              "C:\\Users\\ananta\\AppData\\Local\\Temp\\jsii-kernel-FxNjG2\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:139:9",
+              "visit (C:\\Users\\ananta\\AppData\\Local\\Temp\\jsii-kernel-FxNjG2\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:200:9)",
+              "visit (C:\\Users\\ananta\\AppData\\Local\\Temp\\jsii-kernel-FxNjG2\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:197:9)",
+              "injectMetadataResources (C:\\Users\\ananta\\AppData\\Local\\Temp\\jsii-kernel-FxNjG2\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:128:5)",
+              "Object.synthesize (C:\\Users\\ananta\\AppData\\Local\\Temp\\jsii-kernel-FxNjG2\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:17:5)",
+              "App.synth (C:\\Users\\ananta\\AppData\\Local\\Temp\\jsii-kernel-FxNjG2\\node_modules\\@aws-cdk\\core\\lib\\stage.js:104:41)",
+              "C:\\Users\\ananta\\AppData\\Local\\Temp\\5atzbmgq.ctr\\lib\\program.js:9769:105",
+              "Kernel._ensureSync (C:\\Users\\ananta\\AppData\\Local\\Temp\\5atzbmgq.ctr\\lib\\program.js:10358:28)",
+              "Kernel.invoke (C:\\Users\\ananta\\AppData\\Local\\Temp\\5atzbmgq.ctr\\lib\\program.js:9769:34)",
+              "KernelHost.processRequest (C:\\Users\\ananta\\AppData\\Local\\Temp\\5atzbmgq.ctr\\lib\\program.js:11544:36)",
+              "KernelHost.run (C:\\Users\\ananta\\AppData\\Local\\Temp\\5atzbmgq.ctr\\lib\\program.js:11504:22)",
+              "Immediate._onImmediate (C:\\Users\\ananta\\AppData\\Local\\Temp\\5atzbmgq.ctr\\lib\\program.js:11505:46)",
+              "process.processImmediate (node:internal/timers:491:21)"
+            ]
+          }
+        ],
+        "/CognitoStack/CDKMetadata/Condition": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadataAvailable",
+            "trace": [
+              "new MetadataResource (C:\\Users\\ananta\\AppData\\Local\\Temp\\jsii-kernel-FxNjG2\\node_modules\\@aws-cdk\\core\\lib\\private\\metadata-resource.js:30:35)",
+              "C:\\Users\\ananta\\AppData\\Local\\Temp\\jsii-kernel-FxNjG2\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:139:9",
+              "visit (C:\\Users\\ananta\\AppData\\Local\\Temp\\jsii-kernel-FxNjG2\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:200:9)",
+              "visit (C:\\Users\\ananta\\AppData\\Local\\Temp\\jsii-kernel-FxNjG2\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:197:9)",
+              "injectMetadataResources (C:\\Users\\ananta\\AppData\\Local\\Temp\\jsii-kernel-FxNjG2\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:128:5)",
+              "Object.synthesize (C:\\Users\\ananta\\AppData\\Local\\Temp\\jsii-kernel-FxNjG2\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:17:5)",
+              "App.synth (C:\\Users\\ananta\\AppData\\Local\\Temp\\jsii-kernel-FxNjG2\\node_modules\\@aws-cdk\\core\\lib\\stage.js:104:41)",
+              "C:\\Users\\ananta\\AppData\\Local\\Temp\\5atzbmgq.ctr\\lib\\program.js:9769:105",
+              "Kernel._ensureSync (C:\\Users\\ananta\\AppData\\Local\\Temp\\5atzbmgq.ctr\\lib\\program.js:10358:28)",
+              "Kernel.invoke (C:\\Users\\ananta\\AppData\\Local\\Temp\\5atzbmgq.ctr\\lib\\program.js:9769:34)",
+              "KernelHost.processRequest (C:\\Users\\ananta\\AppData\\Local\\Temp\\5atzbmgq.ctr\\lib\\program.js:11544:36)",
+              "KernelHost.run (C:\\Users\\ananta\\AppData\\Local\\Temp\\5atzbmgq.ctr\\lib\\program.js:11504:22)",
+              "Immediate._onImmediate (C:\\Users\\ananta\\AppData\\Local\\Temp\\5atzbmgq.ctr\\lib\\program.js:11505:46)",
+              "process.processImmediate (node:internal/timers:491:21)"
+            ]
+          }
+        ]
+      },
+      "displayName": "CognitoStack"
+    }
+  }
+}
